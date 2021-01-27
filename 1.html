@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<body>
+		<input 
+			   type="button" 
+			   value="fetch" 
+			   onclick="
+						function callback(){
+							console.log(response.text());
+						}
+						fetch('2.html').then(function(res){
+							console.log(res);
+							res.text().then(function(ttt){
+							console.log(ttt);
+						})
+						});
+						"
+			   >
+	</body>
+</html>
