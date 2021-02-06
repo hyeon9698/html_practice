@@ -1,20 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+	<head>
+		
+		<style>
+			.button{
+				width:150px;
+				height:70px;
+				background-color:#FF6A00;
+				border-radius:30px;
+				box-shadow:5px 5px 5px #A9A9A9;
+			}
+			a{
+				font: italic bold 2em/70px Arial, Helvetica, sans-serif;
+				display:block;
+				text-decoration:none;
+				text-align:center;
+			}
+		</style>
+	</head>
 	<body>
-		<input 
-			   type="button" 
-			   value="fetch" 
-			   onclick="
-						function callback(){
-							console.log(response.text());
-						}
-						fetch('2.html').then(function(res){
-							console.log(res);
-							res.text().then(function(ttt){
-							console.log(ttt);
-						})
-						});
-						"
-			   >
+		<div class="button">
+			<a href="#">Click</a>
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
 	</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.bg-wrap{
+				background-color: red;
+			}
+			.parallax{
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<p id='hi'>
+			dsjfkalsdjf
+		</p>
+		<p>
+			sdfkjldf
+		</p>
+	</body>
+	<div class="bg-wrap parallax">
+		hihisdfakl;sdfjasdf
+	</div>
 </html>
